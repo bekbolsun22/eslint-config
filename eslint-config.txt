@@ -74,6 +74,16 @@
       "no-constant-condition": "off"
       }
 
-10.If you don't have installed Eslint and Prettier extensions - YOU NEED TO INSTALL THEM! 
+10. In file ".eslintrc.json" to key "plugins" replace object: ["react", "react-hooks"],
+
+1.10. In file ".eslintrc.json" to key "extends" replace object: 
+   [
+      "plugin:react/recommended",
+      "airbnb",
+      "plugin:prettier/recommended"
+   ],
+
+
+12.If you don't have installed Eslint and Prettier extensions - YOU NEED TO INSTALL THEM! 
 And after you need reload your VSCode and enjoy to coding!
 
