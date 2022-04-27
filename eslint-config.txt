@@ -8,9 +8,12 @@
 
 5.npm install --save-dev eslint-plugin-prettier
 
-6. Create ".eslintignore" and ".prettierrc" folders
+6. Create ".eslintignore" and ".prettierrc" files
 
-7. In file ".eslintignore" add: node_modules; build; public;
+7. In file ".eslintignore" add names of folders that must be ignored:
+node_modules
+build
+public
 
 8. In file ".prettierrc" add object: 
 {
